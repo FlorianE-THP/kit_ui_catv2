@@ -1,5 +1,5 @@
 
-.chris {}
+
 
 .btn-cart-buy {
   float: right;
@@ -15,7 +15,7 @@
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
 }
-}
+
 
 .p-footer {
   padding: 0;
@@ -647,7 +647,7 @@ input {
   -o-border-radius: 50%;
 }
 .tz-menu-primary {
-  background:#222831;
+  background: #212121;
   position: relative;
 }
 .tz-menu-primary .container {
