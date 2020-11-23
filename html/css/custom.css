@@ -1,3 +1,7 @@
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
 .btn-block {
   margin-top: 2rem;
   margin-bottom: 2rem;

@@ -172,20 +172,33 @@
 <section class="default-page">
   <div class="container">
     <div class="tz-register">
-      <h2>Se connecter</h2>
+      <h2>Créer un compte</h2>
       <!--Start form-->
       <form method="post">
+        <div class="form-row-wide space-between">
+          <p class="form-row form-row-wide col-md-6">
+            <label for="first_name">Prénom</label>
+            <input type="text" class="pull-right input-text" name="first_name" value="" placeholder="Prénom">
+          </p>
+          <p class="form-row form-row-wide col-md-5">
+            <label for="last_name">Nom</label>
+            <input type="text" class="input-text" name="last_name" value="" placeholder="Nom">
+          </p>
+        </div>
         <p class="form-row form-row-wide">
-          <label for="username">Adresse mail</label>
-          <input type="text" class="input-text" name="username" placeholder="machin@truc.chose">
+          <label for="mail">Adresse mail</label>
+          <input type="text" class="input-text" name="mail" value="" placeholder="machin@truc.chose">
         </p>
         <p class="form-row form-row-wide">
           <label for="password">Mot de passe</label>
           <input class="input-text" type="password" name="password" placeholder="Mot de passe">
         </p>
+        <p class="form-row form-row-wide">
+          <label for="confirm-password">Confirmez mot de passe</label>
+          <input class="input-text" type="password" name="confirm-password" placeholder="Confirmez mot de passe">
+        </p>
         <p class="form-footer">
-          <a href="#">Mot de passe oublié ?</a>
-          <a href="shop-register.html" class="pull-right">Pas encore inscrit ?</a>
+          <a href="shop-register.html" class="pull-right">Déjà inscrit ?</a>
         </p>
         <button type="submit" class="pull-right button_class btn-block">LOGIN</button>
       </form>
