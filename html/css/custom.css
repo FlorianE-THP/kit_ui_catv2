@@ -426,7 +426,7 @@ input {
   padding-left: 7px;
 }
 .header-content {
-  padding: 17px 0 50px;
+  padding: 35px 0 50px;
 }
 .header-content:after {
   clear: both;
@@ -3987,7 +3987,7 @@ blockquote {
 #off-canvas-nav {
   display: none;
 }
-@media (max-width: 991px) {
+@media (max-width: 1200px) {
   .tz-main-menu > li .sub-menu {
     position: relative;
     background: #3a3a3a;
