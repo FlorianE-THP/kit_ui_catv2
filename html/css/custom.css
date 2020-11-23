@@ -3874,7 +3874,6 @@ blockquote {
 #commentform p {
   padding: 0;
   margin: 0;
-  position: relative;
 }
 #commentform p i {
   position: absolute;
