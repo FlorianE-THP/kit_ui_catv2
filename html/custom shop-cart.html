@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Shop Cart</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <link href='fonts/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='fonts/lovelo/stylesheet.css' rel='stylesheet' type='text/css'>
+
+    <link href='css/owl.carousel.css' rel='stylesheet' type='text/css'>
+    <link href='css/owl.theme.css' rel='stylesheet' type='text/css'>
+    <link href="css/custom.css" rel="stylesheet" type='text/css'>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--Start class site-->
+<div class="tz-site">
+
+ 
+    <section class="shop-checkout">
+        <div class="container">
+            
+            <p>  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - </p>
+            <!--Start Breadcrumbs-->
+            <ul class="tz-breadcrumbs">
+                <li>
+                    <a href="#">Accueil</a>
+                </li>
+                <li class="current">
+                    Panier
+                </li>
+            </ul>
+            <!--End Breadcrumbs-->
+            <h1 class="page-title">Votre Panier</h1>
+
+            <!--Start form table-->
+            <form>
+                <table class="shop_table cart">
+                    <!--Table header-->
+                    <thead>
+                        <tr>
+                            <th class="product-remove">&nbsp;</th>
+                            <th class="product-thumbnail">Produit</th>
+                            <th class="product-name">&nbsp;</th>
+                            <th class="product-price">Prix</th>
+                            <th class="product-subtotal">Total</th>
+                        </tr>
+                    </thead>
+                    <!--End table header-->
+
+                    <!--Table body-->
+                    <tbody>
+
+                        <tr class="cart_item">
+                            <td class="product-remove">
+                                <a href="#" class="remove" title="Supprimer l'article"></a>
+                            </td>
+                            <td class="product-thumbnail">
+                                <a href="single-product.html"><img src="images/product/widget1.jpg" alt="cart" /></a>
+                            </td>
+                            <td class="product-name">
+                                <a href="single-product.html">Titre de l'artwork'</a>
+                            </td>
+                            <td class="product-price">
+                                <span class="amount">€ 30.00</span>
+                            </td>
+                            <td class="product-subtotal">
+                                <span class="amount"></span>
+                            </td>
+                        </tr>
+                       
+                        <tr>
+                            <td class="actions" colspan="6">
+                                <a class="back-shop" href="#"><i class="fa fa-angle-left"></i> BACK TO SHOP</a>
+                                <button class="update-cart" type="submit"><i class="fas fa-shopping-cart"></i> update Panier</button>
+                            </td>
+                        </tr>
+                        
+
+                    </tbody>
+                    <!--End table body-->
+                </table>
+            </form>
+            <!--End form table-->
+
+            <!--Cart attr-->
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <!--Coupon-->
+                    <div class="coupon">
+                        
+                    </div>
+                    <!--End coupon-->
+                </div>
+                <div class="col-md-6 col-sm-6">
+
+                    <!--Cart totals-->
+                    <div class="cart_totals">
+                        <div class="cart_totals_inner">
+                            <table>
+                                <tbody>
+                                    <tr class="cart-subtotal">
+                                        <th>Sous-total</th>
+                                        <td><span class="amount">€ 30.00</span></td>
+                                    </tr>
+                                    <tr class="shipping">
+                                        <th>Livraison</th>
+                                        <td>
+                                            <form class="shop-shipping-calculator"  method="post">
+                                               <p class="form-r">
+                                                   <input type="checkbox" name="rate" value="1" />
+                                                   <span> Normal : 24h <span class="price">€ 00.00</span></span>
+                                                       
+                                                           
+                                                       
+                                                   
+                                               </p>
+                                                <p class="form-r">
+                                                    <input type="checkbox" name="international" value="1" />
+                                                   <span>
+                                                       Express : 2H
+                                                       <span class="price">
+                                                           € 5.00
+                                                       </span>
+                                                   </span>
+                                                </p>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    <tr class="order-total">
+                                        <th>Prix total</th>
+                                        <td><span class="amount">$30.00</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                        </div>
+
+                    </div>
+                </div>
+              
+            </div>
+
+           <div class='low-cart'>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/off-canvas.js"></script>
+
+<script src="js/jquery.plugin.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+
+
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://kit.fontawesome.com/19b1f3be7b.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
