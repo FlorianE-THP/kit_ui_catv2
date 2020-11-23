@@ -1562,7 +1562,7 @@ input {
  * -----------------------------------------------------------------------------
  */
 .background-parallax {
-  background-image: url("../images/parallax.jpg");
+  background-image: url("https://images.pexels.com/photos/1829980/pexels-photo-1829980.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   padding-top: 125px;
   padding-bottom: 125px;
 }
