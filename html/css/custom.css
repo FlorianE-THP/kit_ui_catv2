@@ -1,3 +1,9 @@
+.section-profile {
+  padding: 1.75rem;
+  border-bottom: #272e3a solid 1px;
+  margin-bottom: 6rem;
+}
+
 .container-profile {
   min-height: 50vh;
 }
@@ -3489,7 +3495,6 @@ input {
  * -----------------------------------------------------------------------------
  */
 .default-page {
-  height: 76vh;
   padding: 80px 0;
 }
 .tz-register {
