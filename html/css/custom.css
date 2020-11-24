@@ -23,6 +23,14 @@
   justify-content: space-between;
 }
 
+footer {
+  bottom: 0;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .align-items-center {
   display: flex;
   align-items: center;
@@ -127,6 +135,7 @@
  */
 
 body {
+  min-height: 100vh;
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -319,11 +328,11 @@ input {
 }
 .style-boxed .tz-site {
   max-width: 1250px;
-  width: 100%;
   margin: auto;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
 }
+
 /**
  * * 2.0 - Header
  * -----------------------------------------------------------------------------
@@ -3484,6 +3493,7 @@ input {
  * -----------------------------------------------------------------------------
  */
 .default-page {
+  height: 76vh;
   padding: 80px 0;
 }
 .tz-register {
@@ -4799,6 +4809,7 @@ blockquote {
 }
 @media (max-width: 479px) {
   .blog-container {
+    min-height: 100vh;
     padding: 15px;
   }
   .blog-sidebar {
