@@ -256,25 +256,29 @@
   <div class="container text-center">
     <h2>Page Footer</h2>
     <p>to do :</p>
-    <ul>
-      <li>Fixer le footer en bas de la page, même si elle est très courte</li>
-      <li>Faire qu'il nous attende en bas de la page et pas qu'il nous accompagne quand on scroll</li>
-      <li>Faire attention à ce qu'il ne recouvre pas une part de la page (différence sticky et fixed)</li>
-    </ul>
-  </div>
-</div>
+  <h4>FOOTER FINI</h4>
+  <p> pour le fixer en bas, il faut englober l'entiereté du body dans deux div :</p>
+  <p>div id=content-wrap</p>
+  <p>div i=page-container</p>
+
+  <p>Je vous passe un lien qui l'explique bien</p>
+ 
+  <h3>https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/</h3>
+</div> </div>
 <!--Start Footer-->
     <footer class="tz-footer">
+        
       <!--Copy right-->
       <div class="tz-copyright">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-6 col-sm-6">
+       
+        <div class="container">
+            <div class="footer-main">
+              <div id="footer-left">
+ 
                       <div class="p-footer">Copyright &copy; 2020  par la team vocal 1 de THP. All rights reserved.</div> 
                   </div>
                   <!--Social networks-->
-                  <div class="col-md-6 col-sm-6">
-                      <div class="pull-right">
+                      <div  id="footer-right" >
                           <ul class="tz-social">
                               <li>
                                   <a class="fa fa-facebook" href="#"></a>
@@ -300,6 +304,7 @@
               </div>
           </div>
       </div>
+    </div>
       <!--End copy right-->
   </footer>
 
